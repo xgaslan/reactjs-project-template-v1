@@ -19,7 +19,19 @@
 		"jsx": "react-jsx",
 		"baseUrl": "./src",
 		"paths": {
-			"@/*": ["src/*"]
+			"@app/*": ["src/main/app/*"],
+			"@assets/*": ["src/web/assets/*"],
+			"@components/*": ["src/web/components/*"],
+			"@helpers/*": ["src/web/helpers/*"],
+			"@hooks/*": ["src/web/hooks/*"],
+			"@middlewares/*": ["src/web/middlewares/*"],
+			"@pages/*": ["src/web/pages/*"],
+			"@routes/*": ["src/web/routes/*"],
+			"@services/*": ["src/web/services/*"],
+			"@store/*": ["src/web/store/*"],
+			"@slices/*": ["src/web/store/slices/*"],
+			"@types/*": ["src/web/types/*"],
+			"@utils/*": ["src/web/utils/*"]
 		}
 	},
 	"include": ["src"]
